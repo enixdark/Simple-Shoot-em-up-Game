@@ -1,0 +1,70 @@
+﻿Build started 22/05/2013 8:13:12 PM.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+AMDAPPSDKROOT = C:\Program Files\AMD APP\
+APPDATA = C:\Users\enix\AppData\Roaming
+CommonProgramFiles = C:\Program Files\Common Files
+COMPUTERNAME = ENIX-PC
+ComSpec = C:\Windows\system32\cmd.exe
+DXSDK_DIR = C:\Program Files\Microsoft DirectX SDK (June 2010)\
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\enix
+INTELOCLSDKROOT = C:\Program Files\Intel\OpenCL SDK\3.0\
+LOCALAPPDATA = C:\Users\enix\AppData\Local
+LOGONSERVER = \\ENIX-PC
+MOZ_PLUGIN_PATH = C:\Program Files\Tracker Software\PDF Viewer\
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files\AMD APP\bin\x86;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files\Windows Live\Shared;C:\Program Files\Microsoft Visual Studio 11.0\Common7\IDE\Extensions\Microsoft\VsGraphics
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\enix\AppData\Local\Microsoft\VisualStudio\11.0\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_IDENTIFIER = x86 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\enix\AppData\Local\Temp
+TMP = C:\Users\enix\AppData\Local\Temp
+USERDOMAIN = ENIX-PC
+USERNAME = enix
+USERPROFILE = C:\Users\enix
+VBOX_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VisualStudioDir = C:\Users\enix\Documents\Visual Studio 2012
+VisualStudioEdition = Microsoft Visual Studio Ultimate 2012
+VisualStudioVersion = 11.0
+VS100COMNTOOLS = c:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\
+VS110COMNTOOLS = C:\Program Files\Microsoft Visual Studio 11.0\Common7\Tools\
+VS90COMNTOOLS = C:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\
+VSLANG = 1033
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+XNAGSShared = C:\Program Files\Common Files\Microsoft Shared\XNA\
+XNAGSv4 = C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\
+
+     1>Project "C:\Users\enix\Documents\Visual Studio 2012\Projects\SRW\SRW\SRW.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\SRW.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Database.cpp
+         Database.cpp
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(1): error C2059: syntax error : '-'
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(1): error C2014: preprocessor command must start as first nonwhite space
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(3): error C2653: 'ODBC' : is not a class or namespace name
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(4): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(4): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(33): error C2653: 'ODBC' : is not a class or namespace name
+     1>c:\users\enix\documents\visual studio 2012\projects\srw\srw\database.cpp(33): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\enix\Documents\Visual Studio 2012\Projects\SRW\SRW\SRW.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.19
